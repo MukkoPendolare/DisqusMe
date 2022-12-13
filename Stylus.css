@@ -1,0 +1,103 @@
+@-moz-document url-prefix("https://disqus.com/embed/") {
+/*elimina border radius dagli avatar e ne rimpicciolisce la dimensione*/
+.avatar .user--refresh {
+    border-radius: 1px !important;
+    min-width: 45px !important;
+    min-height: 45px !important;
+    height: 45px !important;
+    width: 45px !important;
+}
+
+.tooltip .avatar--refresh img {
+    min-width: 45px !important;
+    min-height: 45px !important;
+    height: 45px !important;
+    width: 45px !important;
+}
+
+/* la modifica important su .avatar porta l'immagine a 45px anche nella lista degli upvote, questo serve a rimpicciolirli */
+.voters-outer .voters .user .avatar img {
+    min-width: 25px !important;
+    min-height: 25px !important;
+    height: 25px !important;
+    width: 25px !important;
+}
+
+/* cancella il piccolo orologio prima della data in cui è stato postato il commento */
+.icon-clock:before {
+    content: none !important;
+}
+
+.form-refresh .textarea.textarea {
+    border-radius: 1px !important;
+    padding: 15px !important;
+}
+
+/* toglie i bordi arrotondati al rettangolo per scrivere un nuovo commento */
+.form-refresh .textarea-wrapper {
+    border-radius: 5px !important;
+}
+
+/* toglie i bordi arrotondati al pulsante di nuovo commento  */
+.form-refresh .post-action__button.post-action__button {
+    border-radius: 5px !important;
+}
+
+/* toglie i bordi arrotondati alla notifica dei nuovi commenti nella chat*/
+.alert.alert--realtime--refresh,
+.dark .alert.alert--realtime--refresh {
+    border-radius: 5px !important;
+}
+
+/* toglie i bordi arrotondati al pulsante finale di carica nuovi commenti*/
+.load-more-refresh__button {
+    border-radius: 5px !important;
+}
+
+/* modifica le dimensioni dei caratteri, lo sconsiglio perché attualmente disqus prende le dimensioni dei caratteri dalle impostazioni del browser, e mescolando le cose potrebbe funzionare male */
+.embed-refresh .comment__header {
+    font-size: 15px !important;
+}
+
+.embed-refresh body #page,
+body #page {
+    font-size: 14px !important;
+}
+
+div.post-message * {
+    font-size: 14px !important;
+}
+
+/* DISATTIVATO DI DEFAULT 
+inserisce una linea tra i post , ma fa abbastanza schifo, potete provare a togliere le barre e gli asterischi per attivaro */
+/* 
+.post-content{
+    border-top: 1px solid #ddd !important;
+    
+} 
+*/
+/* cambia l'icona dalla manina alla freccetta */
+[class*="vote-"] :before {
+    font-family: icons;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
+a.vote-up span.control::before {
+    content: "\f103"!important;
+}
+
+a.vote-down span.control::before {
+    content: "\f102"!important;
+}
+
+.embed-refresh .post-votes .vote-up .control,
+.embed-refresh .post-votes .vote-down .control {
+    background-color: transparent !important;
+    -webkit-mask-image: none !important;
+}
+}
