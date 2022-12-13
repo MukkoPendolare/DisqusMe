@@ -23,20 +23,25 @@ La lista delle modifiche al CSS che vengono attivate nelle pagine web disqus.com
 
 ### Browser Mozilla Firefox
 
-1. Installare l'estensione [Stylus](https://addons.mozilla.org/it/firefox/addon/styl-us/)
+1. Installare l'add-on [Stylus](https://addons.mozilla.org/it/firefox/addon/styl-us/)
 2. Cliccare sull'icona dell'estensione in alto a destra
 3. Cliccare manage
 4. In backup importare il File DisqusMeforstylus.json e accettare il cambio di impostazioni 
 
 ### Browser Google Chrome
 
-1. Scaricare il file DisqusMe.crx  
-2. Copiare chrome://extensions/ nella barra degli indirizzi 
-3. trascinare sopra la pagina delle estensioni il file DisqusMe.crx 
+L'estensione [Sylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) esiste anche per Google Chrome, dovrebbe funzionare in modo del tutto simile ma io non l'ho provata.
+
+Alternativamente:  
+
+1. Scaricare il file DisqusMe.zip
+2. Estrarre l'archivio in una cartella 
+3. Copiare chrome://extensions/ nella barra degli indirizzi
+4. Abilitare le opzioni da sviluppatore
+5. Cliccare su Carica estensione non pacchettizzata 
+6. Scegliere la cartella in cui si è estratto il contenuto dell'archivio 
 
 ### Smanettoni
 
-Potete scaricare il file zip con l'estensione di Chrome non pacchettizata
-
-O il file CSS da aggiungere a Stylus (esiste anche l'estensione per Chrome).  
-Dovete però avere l'accortezza di abilitare l'opzione "Expose iframes via HTML[stylus-iframe]" altrimenti non funzionerà)  
+Potete modificare i file contenuti nel pacchetto o il file CSS da aggiungere a Stylus (esiste anche l'estensione per Chrome).  
+Usando Stylus dovete però avere l'accortezza di abilitare l'opzione "Expose iframes via HTML[stylus-iframe]" altrimenti non funzionerà)  
