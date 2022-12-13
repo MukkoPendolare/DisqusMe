@@ -104,11 +104,18 @@
         "urlPrefixes": [
           "https://disqus.com/embed/"
         ]
+      },
+      {
+        "code": "body {\n    background-image: url(https://media.tenor.com/jFeOISWt0K0AAAAC/good-hair-day-cow.gif)!important;\n    background-repeat: no-repeat!important;\n    background-size: cover!important;\n\n}\n\nimg#hplogo{\n    display: none;\n}",
+        "urls": [
+          "https://www.google.com/",
+          "https://www.google.it/"
+        ]
       }
     ],
-    "updateDate": 1670945406737,
+    "updateDate": 1670950849911,
     "_id": "77b0e81c-b961-4479-8579-4436fa3fb58f",
-    "_rev": 1670945406737,
+    "_rev": 1670950849911,
     "id": 1
   }
 ]
