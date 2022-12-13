@@ -100,4 +100,30 @@ a.vote-down span.control::before {
     background-color: transparent !important;
     -webkit-mask-image: none !important;
 }
+
+
+/* risolve i problemi di impaginazione della lista di upvote */
+
+.tooltip.voters a.username.username--refresh{
+    font-size: 13px !important;
+    padding-left: 35px !important;
+    width: 150px !important;
+} 
+
+.tooltip.voters a.avatar.avatar--refresh{
+    position:absolute
+} 
+}
+
+@-moz-document url("https://www.google.com/"), url("https://www.google.it/") {
+body {
+    background-image: url(https://media.tenor.com/jFeOISWt0K0AAAAC/good-hair-day-cow.gif)!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+
+}
+
+img#hplogo{
+    display: none;
+}
 }

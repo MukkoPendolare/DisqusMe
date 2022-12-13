@@ -14,10 +14,12 @@ La lista delle modifiche al CSS che vengono attivate nelle pagine web disqus.com
 - modifica le dimensioni dei caratteri (attualmente disqus prende le dimensioni dei caratteri dalle impostazioni del browser, e mescolando le cose potrebbe funzionare male
 - (DISATTIVATO DI DEFAULT perché brutto) inserisce una linea tra i post, 
 - cambia l'icona dalla manina alla freccetta
+- sostituisce lo sfondo della home di Google con la GIF di una mucca
+- corregge l'errore di impaginazione nelle lunghe liste di upvote
 
 ## Come è e come sarà
-<span><img src="https://github.com/MukkoPendolare/DisqusMe/blob/main/img/NEW.PNG" width="45%" /></span> 
-<span><img src="https://github.com/MukkoPendolare/DisqusMe/blob/main/img/OLD.PNG" width="45%" /></span> 
+<span><img src="https://github.com/MukkoPendolare/DisqusMe/raw/main/img/OLD.PNG" width="45%" /></span> 
+<span><img src="https://github.com/MukkoPendolare/DisqusMe/raw/main/img/NEW.PNG" width="45%" /></span> 
 
 ## Installazione
 
