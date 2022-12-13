@@ -26,7 +26,7 @@ La lista delle modifiche al CSS che vengono attivate nelle pagine web disqus.com
 1. Installare l'add-on [Stylus](https://addons.mozilla.org/it/firefox/addon/styl-us/)
 2. Cliccare sull'icona dell'estensione in alto a destra
 3. Cliccare manage
-4. In backup importare il File [DisqusMeforstylus.json](https://github.com/MukkoPendolare/DisqusMe/blob/main/DisqusMeforstylus.json) e accettare il cambio di impostazioni 
+4. In backup importare il File [DisqusMeforstylus.json](https://github.com/MukkoPendolare/DisqusMe/raw/main/DisqusMeforstylus.json) e accettare il cambio di impostazioni 
 
 ### Browser Google Chrome
 
@@ -34,7 +34,7 @@ L'estensione [Sylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkp
 
 Alternativamente:  
 
-1. Scaricare il file [DisqusMe.zip](https://github.com/MukkoPendolare/DisqusMe/blob/main/DisqusMe.zip)
+1. Scaricare il file [DisqusMe.zip](https://github.com/MukkoPendolare/DisqusMe/raw/main/DisqusMe.zip)
 2. Estrarre l'archivio in una cartella 
 3. Copiare chrome://extensions/ nella barra degli indirizzi
 4. Abilitare le opzioni da sviluppatore
